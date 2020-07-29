@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,r;
+    char o;
+    cout<<"Enter number1:";
+    cin>>a;
+    cout<<"Enter an oparetor:";
+    cin>>o;
+    cout<<"Enter number2:";
+    cin>>b;
+    if(o=='+')
+    r=a+b;
+    else if(o=='-')
+    r=a-b;
+    else if(o=='x')
+    r=a*b;
+    else if(o=='÷')
+    r=a/b;
+    cout<<"\nThe result is "<<r;
+
+    return 0;
+}
